@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+}
+
+header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+header > img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > h5 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: Inter;
+}
+
+article.journal-entry {
+  display: flex;
+  margin: 20px 60px 20px 60px;
+  margin-bottom: 36px;
+}
+
+article.journal-entry .marker {
+  width: 7px;
+  margin-right: 4px;
+}
+
+article.journal-entry .main-img-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.date {
+  font-weight: bold;
+  font-family: Inter;
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 20px;
+}
+
+p {
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.main-img-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.main-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.marker-img {
+  height: 20px;
+  padding-right: 5px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
